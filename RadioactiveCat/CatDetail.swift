@@ -16,7 +16,6 @@ struct CatDetail: View {
     init(cat: Cat) {
         self.cat = cat
         self.datedImage = cat.datedImages.randomElement()!
-        print("INIT")
     }
     
     var body: some View {
@@ -57,7 +56,6 @@ struct CatDetail: View {
 
 struct CatDetail_Previews: PreviewProvider {
     static var previews: some View {
-//        Text("wat")
         CatDetail(cat: Cats.all.randomElement()!)
     }
 }
