@@ -17,6 +17,7 @@
 		9B8634A728BBD52200F046A4 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8634A628BBD52200F046A4 /* AppIcon.xcassets */; };
 		9B8634A928BBD65000F046A4 /* Cats in Resources */ = {isa = PBXBuildFile; fileRef = 9B8634A828BBD64F00F046A4 /* Cats */; };
 		9B8634AB28BBDB1300F046A4 /* CatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8634AA28BBDB1300F046A4 /* CatDetail.swift */; };
+		9BA3A40B28BD742F006A196A /* DatedImageGeneratorExecutable in Frameworks */ = {isa = PBXBuildFile; productRef = 9BA3A40A28BD742F006A196A /* DatedImageGeneratorExecutable */; };
 		9BBEF9FE28BC12A4006C5010 /* Cats in Frameworks */ = {isa = PBXBuildFile; productRef = 9BBEF9FD28BC12A4006C5010 /* Cats */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BBEF9FE28BC12A4006C5010 /* Cats in Frameworks */,
+				9BA3A40B28BD742F006A196A /* DatedImageGeneratorExecutable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +166,7 @@
 			name = RadioactiveCat;
 			packageProductDependencies = (
 				9BBEF9FD28BC12A4006C5010 /* Cats */,
+				9BA3A40A28BD742F006A196A /* DatedImageGeneratorExecutable */,
 			);
 			productName = RadioactiveCat;
 			productReference = 9B86347628BBCE9300F046A4 /* RadioactiveCat.app */;
@@ -237,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 9B86346D28BBCE9300F046A4;
+			packageReferences = (
+				9BA3A40928BD742F006A196A /* XCRemoteSwiftPackageReference "DatedImageGenerator" */,
+			);
 			productRefGroup = 9B86347728BBCE9300F046A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -609,7 +615,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		9BA3A40928BD742F006A196A /* XCRemoteSwiftPackageReference "DatedImageGenerator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/designatednerd/DatedImageGenerator.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		9BA3A40A28BD742F006A196A /* DatedImageGeneratorExecutable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BA3A40928BD742F006A196A /* XCRemoteSwiftPackageReference "DatedImageGenerator" */;
+			productName = DatedImageGeneratorExecutable;
+		};
 		9BBEF9FD28BC12A4006C5010 /* Cats */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Cats;

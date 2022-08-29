@@ -6,16 +6,16 @@
       "location" : "https://github.com/designatednerd/DatedImageGenerator.git",
       "state" : {
         "branch" : "main",
-        "revision" : "d3c92a1327e6cfe4c6fc1c9f7c0b7166d87fa0ee"
+        "revision" : "925e0e6f9bbcc6f28dec5a42a2534a80d432555a"
       }
     },
     {
       "identity" : "donildisturbplugin",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/designatednerd/DoNilDisturbPlugin.git",
+      "location" : "https://github.com/icanzilb/DoNilDisturbPlugin.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "88fcfea8eb900eb6dab104d6580c1a11fcc75bcf"
+        "revision" : "34967ada96b52b4bc16a2d0270d44de6e96f5593",
+        "version" : "0.0.5"
       }
     },
     {
