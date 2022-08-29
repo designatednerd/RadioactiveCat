@@ -18,7 +18,12 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/designatednerd/DatedImageGenerator.git", branch: "main")
+        .package(url: "https://github.com/designatednerd/DatedImageGenerator.git", branch: "main"),
+        
+        // Temp until fix gets merged
+        .package(url: "https://github.com/designatednerd/DoNilDisturbPlugin.git", branch: "main")
+//        .package(url: "https://github.com/icanzilb/DoNilDisturbPlugin.git", from: "0.0.2"),
+
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -27,10 +32,10 @@ let package = Package(
             name: "Cats",
             dependencies: [
                 .product(name: "DatedImage", package: "DatedImageGenerator"),
-
             ],
             plugins: [
-                .plugin(name: "DatedImageGenerator", package: "DatedImageGenerator")
+                .plugin(name: "DatedImageGenerator", package: "DatedImageGenerator"),
+                .plugin(name: "DoNilDisturbPlugin", package: "DoNilDisturbPlugin") 
             ]
         ),
         .testTarget(
