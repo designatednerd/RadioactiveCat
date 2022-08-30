@@ -22,7 +22,7 @@ struct CatDetail: View {
         VStack(spacing: 4) {
             Text(cat.name)
                 .font(.headline)
-            datedImage.image
+            datedImage.assetsImage
                 .resizable()
                 .scaledToFit()
             VStack(spacing: 8) {

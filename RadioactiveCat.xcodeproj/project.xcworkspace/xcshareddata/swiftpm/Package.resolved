@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/designatednerd/DatedImageGenerator.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "fe7e0ba84fe3e0a5f8c6de06fa30af28617aaa2d"
+        "revision" : "83d77b5f6dae2c165acbc41b7753882dc929e78b",
+        "version" : "0.0.2"
       }
     },
     {

@@ -15,7 +15,7 @@ let package = Package(
             targets: ["Cats"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/designatednerd/DatedImageGenerator.git", branch: "main"),
+        .package(url: "https://github.com/designatednerd/DatedImageGenerator.git", from: "0.0.2"),
         .package(url: "https://github.com/icanzilb/DoNilDisturbPlugin.git", from: "0.0.5"),
     ],
     targets: [

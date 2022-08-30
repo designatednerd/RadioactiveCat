@@ -40,24 +40,24 @@ public struct Cats {
     
     public static let all = [
         Cat(name: "Klaus",
-            datedImages: [AssetCatalogImages.klaus]),
+            datedImages: [Assets.klaus]),
         Cat(name: "Chaplin",
-            datedImages:  [AssetCatalogImages.chaplin]),
+            datedImages:  [Assets.chaplin]),
         Cat(name: "Sophie",
-            datedImages: [AssetCatalogImages.sophie]),
+            datedImages: [Assets.sophie]),
         Cat(name: "Hank",
             datedImages: [
-                AssetCatalogImages.hank_1,
-                AssetCatalogImages.hank_2,
-                AssetCatalogImages.hank_3
+                Assets.hank_1,
+                Assets.hank_2,
+                Assets.hank_3
             ]),
         Cat(name: "George Michael",
             radioactiveDateInterval: GMRadioactivityInterval,
             datedImages: [
-                AssetCatalogImages.georgie_1,
-                AssetCatalogImages.georgie_2,
-                AssetCatalogImages.georgie_3,
-                AssetCatalogImages.georgie_4,
+                Assets.georgie_1,
+                Assets.georgie_2,
+                Assets.georgie_3,
+                Assets.georgie_4,
             ])
     ]
 }
