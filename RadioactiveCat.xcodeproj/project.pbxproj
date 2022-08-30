@@ -10,7 +10,6 @@
 		9B1BAD0D28BE5814008F20E3 /* RadioactiveCatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BAD0C28BE5814008F20E3 /* RadioactiveCatApp.swift */; };
 		9B3856B128BC1D40009CEE8A /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3856B028BC1D40009CEE8A /* Formatters.swift */; };
 		9B86347C28BBCE9300F046A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86347B28BBCE9300F046A4 /* ContentView.swift */; };
-		9B86348128BBCE9400F046A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B86348028BBCE9400F046A4 /* Preview Assets.xcassets */; };
 		9B86348B28BBCE9400F046A4 /* RadioactiveCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86348A28BBCE9400F046A4 /* RadioactiveCatTests.swift */; };
 		9B86349528BBCE9400F046A4 /* RadioactiveCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86349428BBCE9400F046A4 /* RadioactiveCatUITests.swift */; };
 		9B86349728BBCE9400F046A4 /* RadioactiveCatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86349628BBCE9400F046A4 /* RadioactiveCatUITestsLaunchTests.swift */; };
@@ -42,7 +41,6 @@
 		9B3856B028BC1D40009CEE8A /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		9B86347628BBCE9300F046A4 /* RadioactiveCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioactiveCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B86347B28BBCE9300F046A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9B86348028BBCE9400F046A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B86348628BBCE9400F046A4 /* RadioactiveCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioactiveCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B86348A28BBCE9400F046A4 /* RadioactiveCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioactiveCatTests.swift; sourceTree = "<group>"; };
 		9B86349028BBCE9400F046A4 /* RadioactiveCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioactiveCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +115,6 @@
 		9B86347F28BBCE9400F046A4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9B86348028BBCE9400F046A4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -255,7 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B86348128BBCE9400F046A4 /* Preview Assets.xcassets in Resources */,
 				9B8634A928BBD65000F046A4 /* Cats in Resources */,
 				9B8634A728BBD52200F046A4 /* AppIcon.xcassets in Resources */,
 			);
