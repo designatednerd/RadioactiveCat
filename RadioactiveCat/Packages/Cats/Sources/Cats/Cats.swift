@@ -58,6 +58,7 @@ public struct Cats {
                 Assets.georgie_2,
                 Assets.georgie_3,
                 Assets.georgie_4,
+                Assets.georgie_5
             ])
     ]
 }
